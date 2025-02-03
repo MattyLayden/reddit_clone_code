@@ -1,0 +1,91 @@
+
+.loadingContainer {
+    display: flex;
+    width: auto;
+    height: 100px; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.loadingContainer #loading {
+    width: 50px;  
+    height: 50px; 
+    padding: 8px;
+}
+
+.loadingContainer #submit-text {
+    font-size: 16px;
+}
+
+.post-success {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.post-success #post-created {
+    font-size: 16px;
+    font-weight: bold;  
+}
+
+.post-success #submit-tick {
+    height: 50px;
+    width: 50px;
+}
+
+.post-success #view-post-button {
+    height: auto;  
+    width: auto;
+    padding: 8px 16px; 
+    background-color: #383a3b;
+    color: #95999c !important;
+    border-radius: 4px; 
+    font-weight: bold;  
+    text-transform: uppercase;  
+}
+
+.post-success #view-post-button:hover {
+    background-color: #555a5c;  
+}
+
+#error-message {
+    color: red;
+    font-size: 14px;  
+    margin-top: 8px;  
+}
+
+
+#subredditDropdown, #bodyText, #fileurl, #articleUrl {
+    background-color: #f5f5f5 !important; 
+    color: black; 
+    border: 1px solid black; 
+  }
+
+  #title{
+    background-color: #f5f5f5 !important; 
+    color: black; 
+   
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 16px !important; 
+    width: 100%; 
+  }
+  
+  .MuiInputLabel-root {
+    color: #383a3b !important; 
+    font-weight: 500;
+  }
+  
+  .Mui-focused .MuiInputLabel-root {
+    color: #383a3b !important;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-color: black !important; 
+  }

@@ -1,0 +1,150 @@
+
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    margin-left: 400px; 
+    margin-top: 70px; 
+    height: calc(100vh - 70px); 
+    width: calc(100vw - 400px) !important;
+    overflow-y: auto; 
+  }
+
+
+.header-bar {
+  display: flex;
+  align-items: flex-end; 
+  gap: 35px;             
+  margin-bottom: 20px;   
+}
+
+#sub-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;    
+  object-fit: cover;     
+}
+
+#header-title {
+  font-size: 32px;       
+  font-weight: bold;     
+  color: black;          
+  margin: 0;             
+  padding-bottom: 4px;   
+}
+.loaded-description {
+  display: flex;
+  position: fixed;
+  background-color: #f0f0f0;
+  color: black !important;
+  height: 500px;
+  width: 350px;
+  right: 25px;
+  border-radius: 10%;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;  
+  align-items: center;
+  top: 100px;
+}
+
+#description-title {
+  color: black !important;
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center; 
+}
+
+#description {
+  color: black !important;
+  text-align: center;  
+  flex-grow: 1;  
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  margin: 0;  
+}
+
+#description-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  color: black !important;
+  margin-top: 10px;
+  padding-top: 10px; 
+}
+
+#user-count-number {
+  color: black !important; 
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+
+#user-count-members-text {
+  color: red;  
+  visibility: visible !important;  
+  display: block !important;  
+}
+
+
+
+
+
+
+
+  #sortByBar {
+    margin-bottom: 20px; 
+    left:0;
+    height: 10vh;
+    width: 10vw;
+
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 20px; 
+  }
+  
+  #pagination-bar {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .MuiCard-root {
+    margin: 10px 0; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+  }
+  
+  .MuiCard-root img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .MuiCard-root .MuiCardContent-root {
+    padding: 16px;
+  }
+  
+  .MuiCard-root .MuiTypography-root {
+    font-size: 1rem; 
+  }
+  
+  .MuiCard-root .MuiTypography-h6 {
+    font-size: 1.2rem; 
+    font-weight: bold;
+  }
+  
+  .MuiCard-root .MuiCardHeader-root {
+    padding: 16px 16px 0 16px; 
+  }
+  

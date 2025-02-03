@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;
+}
+
+body .appbar {
+  position: fixed;
+  color: #95999c;
+  background-color: #383a3b !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  height: 64px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appbar .MuiToolbar-root {
+  min-height: 64px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appbar .MuiStack-root {
+  flex-grow: 1;
+  margin-left: 16px;
+}
+
+
+.autocomplete {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.autocomplete .MuiInputBase-root {
+  height: 40px;
+}
+
+.autocomplete .MuiAutocomplete-inputRoot {
+  padding: 0;
+}
+
+#sidebar-container {
+  position: fixed;
+  top: 64px; 
+  left: 0;
+  width: 400px;
+  height: calc(100% - 64px); 
+  background-color: #f0f0f0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.feed-container {
+  margin-left: 400px; 
+  margin-top: 64px; 
+  padding: 16px;
+  background-color: #2f2f2f; 
+  height: calc(100vh - 64px); 
+  overflow-y: auto;
+  color: black;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#pagination-bar {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #2f2f2f;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#sortByBar {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #2f2f2f;
+  padding: 8px;
+  border-radius: 8px;
+}

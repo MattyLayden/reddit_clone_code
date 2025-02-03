@@ -1,0 +1,15 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px; 
+    height: calc(100vh - 64px); 
+    overflow: hidden;
+}
+
+.content {
+    flex-grow: 1;
+    margin-left: 400px; 
+    padding: 16px;
+    overflow-y: auto; 
+    background-color: #ffffff;
+}

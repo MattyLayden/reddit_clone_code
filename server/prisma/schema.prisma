@@ -1,0 +1,80 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+//maybe add user icon
+
+model User{
+  id Int @id @default(autoincrement())
+  username String 
+  email String 
+  subscribedSubreddits Subreddit[]
+  posts Post[]
+  comments Comment[]
+  password String
+  icon String?
+  recentSubs String[] @default([])
+}
+
+
+model Subreddit{
+  id Int @id @default(autoincrement())
+  name String
+  posts Post[]
+  subscribedUsers User[]
+  icon String
+  // need to migrate and change the initial data to include description and post
+  //information such as file
+  description String
+}
+
+// Perhaps add a file section to the post.
+
+model Post{
+  id Int @id @default(autoincrement())
+  title String
+  dateAdded DateTime
+  postInformation String?
+  fileUrl String?
+  articleLink String?
+  upvotes Int
+  subredditId Int
+  subreddit Subreddit @relation(fields: [subredditId], references: [id])
+  comments Comment[]
+  authorId Int
+  author User @relation(fields:[authorId], references: [id])
+}
+
+model Comment{
+  id Int @id @default(autoincrement())
+  dateAdded DateTime
+  commentInformation String?
+  upvotes Int
+  parentPostId Int
+  parentPost Post @relation(fields: [parentPostId], references: [id])
+  authorId Int 
+  author User @relation(fields:[authorId], references:[id])
+  parentCommentId Int?
+  parentComment Comment? @relation("CommentReplies", fields: [parentCommentId], references: [id])
+  replies Comment[] @relation("CommentReplies")
+}
+
+//need to migrate
+
+model Miscellaneous {
+  id          Int    @id @default(autoincrement())
+  photo_links String
+}

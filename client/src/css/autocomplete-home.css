@@ -1,0 +1,42 @@
+.MuiAutocomplete-root {
+    width: 100% !important;
+  }
+  
+  .MuiInputBase-root {
+      border: none !important;
+      box-shadow: none !important;
+      margin-top: 10px;
+  }
+  
+  .MuiInputBase-root:focus {
+      outline: none !important;
+  }
+  
+  .MuiOutlinedInput-notchedOutline {
+      display: none !important;
+  }
+  
+  .MuiInputBase-root:hover {
+      border: none !important;
+  }
+  
+  .MuiAutocomplete-option {
+      display: flex;
+      align-items: center;
+  }
+  
+  .MuiAutocomplete-popupIndicator {
+      padding: 5px;
+  }
+  
+  .MuiAvatar-root {
+      width: 24px;
+      height: 24px;
+  }
+  
+  .MuiInputBase-input {
+      padding: 0 8px;
+      border-radius: 4px;
+      background-color: #fff;
+  }
+  
