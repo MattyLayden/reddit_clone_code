@@ -6,10 +6,15 @@ A full-stack social media application heavily inspired by Reddit, allowing users
 
 Please take a look around (currently being hosted on an aws ubuntu instance):
 
-http://13.51.169.75:5001/
+http://51.20.181.110:3000/
 
 username: monuments15
 password: password1
+
+or another example is 
+
+username: tricks90
+password: password2
 
 
 ----------------------------------------------------------------------------
@@ -34,4 +39,4 @@ Node.js, Express, Postgresql
 
 ----------------------------------------------------------------------------
 
-
+I am fully aware that this is far from perfect and even has areas such as creating a community i have yet to add. 
