@@ -8,7 +8,8 @@ This was primarily a lesson in database design by connecting databases and using
 
 ## Video demonstration (3 minutes runtime)
 
-[![Demo Video]((https://youtu.be/8WPIryGtHIg))]
+[![Demo Video]((https://youtu.be/8WPIryGtHIg))][![Demo Video](https://img.youtube.com/vi/8WPIryGtHIg/0.jpg)](https://youtu.be/8WPIryGtHIg)
+
 
 https://youtu.be/8WPIryGtHIg
 
