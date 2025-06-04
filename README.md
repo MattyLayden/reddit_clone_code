@@ -20,19 +20,19 @@ https://youtu.be/8WPIryGtHIg
 
 ## Features
 
--User authentication (JWT)
+- User authentication (JWT)
 
--Create, read, update, delete (CRUD) for posts and comments
+- Create, read, update, delete (CRUD) for posts and comments
 
--Nest comments with replies
+- Nest comments with replies
 
--Upvote/Downvote system
+- Upvote/Downvote system
 
--User profiles with avatars
+- User profiles with avatars
 
--Sorting posts by date or upvotes
+- Sorting posts by date or upvotes
 
--Material UI design
+- Material UI design
 
 ## Tech stack
 
@@ -44,11 +44,11 @@ Node.js, Express, PostgreSQL
 
 ## Data focus
 
--Entity relationships (users, posts, comments)
+- Entity relationships (users, posts, comments)
 
--Data normalisation and schema design
+- Data normalisation and schema design
 
--Query optimisation and indexing for sorting and filtering posts
+- Query optimisation and indexing for sorting and filtering posts
 
 
 ----------------------------------------------------------------------------
