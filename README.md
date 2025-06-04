@@ -21,11 +21,17 @@ https://youtu.be/8WPIryGtHIg
 ## Features
 
 -User authentication (JWT)
+
 -Create, read, update, delete (CRUD) for posts and comments
+
 -Nest comments with replies
+
 -Upvote/Downvote system
+
 -User profiles with avatars
+
 -Sorting posts by date or upvotes
+
 -Material UI design
 
 ## Tech stack
@@ -39,7 +45,9 @@ Node.js, Express, PostgreSQL
 ## Data focus
 
 -Entity relationships (users, posts, comments)
+
 -Data normalisation and schema design
+
 -Query optimisation and indexing for sorting and filtering posts
 
 
@@ -48,8 +56,11 @@ Node.js, Express, PostgreSQL
 This was a self-driven deep dive into full-stack development. While the codebase has room for improvement, it provided me with a strong foundation in connecting frontend logic with backend APIs and managing structured data across the stack.
 
 This platform could be extended with data dashboards to analyze:
+
 - User engagement trends
+
 - Post popularity over time
+
 - Comment activity 
 
 
